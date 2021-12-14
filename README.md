@@ -1,4 +1,4 @@
-<p align="center">Implementation of Prodigi.com Print-on-Demand REST API in 👑 Nim language.</p>
+<p align="center">An unofficial implementation of Prodigi.com REST API in 👑 Nim language.</p>
 
 ## 😍 Key Features
 - [x] Made with Love
