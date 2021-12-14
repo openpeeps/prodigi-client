@@ -5,7 +5,7 @@
 - [x] ...
 - [x] Open Source
 
-Prodigi is an awesome Print on Demand company based in UK and other EU countries. [Check Prodigi.com](https://prodigi.com) website and [Prodigi's Portfolio](https://www.prodigi.com/download/product-range/prodigi-portfolio.pdf)
+Prodigi is an awesome Print on Demand company based in UK and other EU countries. [Check Prodigi.com](https://prodigi.com) website and [Prodigi's Portfolio](https://www.prodigi.com/download/product-range/prodigi-portfolio.pdf). [Check official API Documentation](https://www.prodigi.com/print-api/)
 
 
 ### ❤ Contributions
