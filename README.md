@@ -1,11 +1,47 @@
-<p align="center">An unofficial implementation of Prodigi.com REST API in 👑 Nim language.</p>
+<p align="center">An unofficial implementation of Prodigi.com REST API <code>v4</code> in 👑 Nim language.</p>
 
 ## 😍 Key Features
 - [x] Made with Love
-- [x] ...
-- [x] Open Source
+- [x] Live and Sandbox Enviroment
+- [x] HTTP Request via Nim's native HTTP Library
+- [x] Zero Dependencies except [Nyml](https://github.com/openpeep/nyml) for its yEnv functionality
+- [x] Open Source under `MIT` License
 
-Prodigi is an awesome Print on Demand company based in UK and other EU countries. [Check Prodigi.com](https://prodigi.com) website and [Prodigi's Portfolio](https://www.prodigi.com/download/product-range/prodigi-portfolio.pdf). [Check official API Documentation](https://www.prodigi.com/print-api/) and be sure you read about [Sandbox / Live environments](https://www.prodigi.com/print-api/docs/reference/#environments-sandbox).
+## Endpoints
+- [ ] Environments
+- [ ] Authentication Header
+- [ ] Orders
+- [ ] Order Actions
+- [ ] Quotes
+- [ ] Product details
+- [ ] Callbacks
+
+Prodigi is an awesome Print on Demand company based in UK and other EU countries. [Check Prodigi.com](https://prodigi.com) website and [Prodigi's Portfolio](https://www.prodigi.com/download/product-range/prodigi-portfolio.pdf). [Check official API Documentation](https://www.prodigi.com/print-api/).
+
+## Prodigi's Live and Sandbox Environments
+Prodigi provides two working environments. One for production (Live) and one for development purpose, called Sandbox. By default Prodigi Client is running with `sandbox` set `true`, which will route all requests to `api.sandbox.prodigi.com`, whereas for production environment the base endpoint is `api.prodigi.com`. Read about [Sandbox / Live environments](https://www.prodigi.com/print-api/docs/reference/#environments-sandbox).
+
+## Quick Example
+```python
+import prodigi
+
+var client = Prodigi()
+```
+
+
+### The order process
+Understanding how Prodigi process and fulfill orders will help you understand their API. Prodigi's order process consists of the following steps:
+1. Order creation
+2. Assets download
+3. Lab allocation
+4. Asset preparation
+5. Lab submission
+6. Production
+7. Shipping
+8. Order completion
+
+Check official [documentation related to Order Process](https://www.prodigi.com/print-api/docs/reference/#the-order-process)
+
 
 
 ### ❤ Contributions
