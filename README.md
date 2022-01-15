@@ -43,7 +43,6 @@ Understanding how Prodigi process and fulfill orders will help you understand th
 Check official [documentation related to Order Process](https://www.prodigi.com/print-api/docs/reference/#the-order-process)
 
 
-
 ### ❤ Contributions
 If you like this project you can contribute by opening new issues, fixing bugs, contribute with code, ideas and you can even support us via PayPal address pay@openpeep.ro
 
@@ -53,5 +52,5 @@ If you like this project you can contribute by opening new issues, fixing bugs, 
 <strong>Why Nim?</strong> Performance, fast compilation and C-like freedom. We want to keep code clean, readable, concise, and close to our intention. Also a very good language to learn in 2022.
 
 ### 🎩 License
-Prodigi Nim is an Open Source Software released under `MIT` license. Developed by Humans from [OpenPeep](https://github.com/openpeep).<br>
+Prodigi Client is an Open Source Software released under `MIT` license. Developed by Humans from [OpenPeep](https://github.com/openpeep).<br>
 Copyright &copy; 2022 OpenPeep & Contributors &mdash; All rights reserved.
